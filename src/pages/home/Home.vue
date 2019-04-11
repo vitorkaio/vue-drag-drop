@@ -4,7 +4,7 @@
       <h3>Loading...</h3>
     </template>
     <template v-else>
-      <h1>Repositories - vitorkaio</h1>
+      <h1>Repositórios - vitorkaio</h1>
       <ReposWrapper>
         <draggable v-model='getList' class="drags">
           <RepositoryItem v-for='(item, i) in getList' :key='i' :item='item' />
